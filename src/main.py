@@ -17,14 +17,14 @@ def get_row_col_from_mouse(pos):
 def main():
     run = True
     clock = pygame.time.Clock()
-    game = Game(WIN)
+    game = Game(WIN, const.WHITE)
 
     while run:
         clock.tick(FPS)
 
         if game.winner() != None:
             print(game.winner())
-            run = False
+            game.reset()
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:

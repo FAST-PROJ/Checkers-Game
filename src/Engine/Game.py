@@ -2,21 +2,34 @@ import pygame
 import Engine.constants as const
 from Engine.Board import Board
 from Engine.Player import Player
+from Engine.AI import AI
 
 class Game:
-    def __init__(self, win):
+    def __init__(self, win, aiTurn):
         self.win = win
 
         self.screenBoard = pygame.Surface((const.WIDTH, const.HEIGHT))
         self.screenScore = pygame.Surface((const.WIDTH_SCORE, const.HEIGHT_SCORE))
         self.win.blit(self.screenScore, (0,0))
         self.win.blit(self.screenBoard, (0, const.HEIGHT))
+        self.aiTurn = aiTurn
+        self.ai = None
         self._init()
 
     def update(self):
         self.board.draw(self.win)
         self.draw_valid_moves(self.valid_moves)
+
+        if self.turn == self.aiTurn:
+            self.computerTurn()
+
         pygame.display.update()
+
+    def computerTurn(self):
+        action = self.ai.getQTableMaxValueAction(self.board.getState(), self.turn, self.board)
+        self.board.moveAI(action)
+        self.change_turn()
+        pygame.time.delay(2000)
 
     def _init(self):
         self.selected = None
@@ -27,6 +40,9 @@ class Game:
         )
         self.turn = const.RED
         self.valid_moves = {}
+        if self.ai is None:
+            self.ai = AI()
+            self.ai.training()
 
     def winner(self):
         return self.board.winner()
@@ -44,7 +60,7 @@ class Game:
         piece = self.board.get_piece(row, col)
         if piece != 0 and piece.color == self.turn:
             self.selected = piece
-            self.valid_moves = self.board.get_valid_moves(piece)
+            self.valid_moves = self.board.get_valid_moves(piece, self.board.board)
             return True
 
         return False

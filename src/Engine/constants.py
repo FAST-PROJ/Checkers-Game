@@ -13,4 +13,11 @@ BLACK = (0, 0, 0)
 BLUE = (0, 0, 255)
 GREY = (128,128,128)
 
+#IA
+WIN_REWARD = 120
+GET_PIECE_REWARD = 10
+MOVE_REWARD = 0
+KING_REWARD = 5
+NUM_ITERATION = 50
+
 CROWN = pygame.transform.scale(pygame.image.load('assets/crown.png'), (44, 25))

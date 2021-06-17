@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13abddda-5e26-42b5-8606-a35af9af3d0a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tdjaSDcykHjuLZpLYWkwUrQxu3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/QLEARNING" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Checkers-Game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13abddda-5e26-42b5-8606-a35af9af3d0a" name="Default Changelist" comment="" />
+      <created>1623105924111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623105924111</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623805538633">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="309" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.920@0.0.1707.920" timestamp="1623805538633" />
+    <state x="0" y="214" key="#xdebugger.XInspectDialog" timestamp="1623873071439">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="0" y="214" key="#xdebugger.XInspectDialog/0.0.1707.920@0.0.1707.920" timestamp="1623873071439" />
+    <state x="609" y="164" key="#xdebugger.evaluate" timestamp="1623876055891">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="609" y="164" key="#xdebugger.evaluate/0.0.1707.920@0.0.1707.920" timestamp="1623876055891" />
+    <state width="999" height="466" key="DebuggerActiveHint" timestamp="1623885247637">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="999" height="466" key="DebuggerActiveHint/0.0.1707.920@0.0.1707.920" timestamp="1623885247637" />
+    <state x="634" y="216" key="FileChooserDialogImpl" timestamp="1623791649296">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="634" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1623791649296" />
+    <state width="1685" height="240" key="GridCell.Tab.0.bottom" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.0.center" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.0.left" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.0.right" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.1.bottom" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.1.center" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.1.left" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state width="1685" height="240" key="GridCell.Tab.1.right" timestamp="1623890305679">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="240" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1623890305679" />
+    <state x="749" y="196" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1623805126364">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="749" y="196" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1707.920@0.0.1707.920" timestamp="1623805126364" />
+    <state x="417" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623853274131">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="417" y="190" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1707.920@0.0.1707.920" timestamp="1623853274131" />
+    <state x="560" y="193" width="587" height="534" key="find.popup" timestamp="1623862590195">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="560" y="193" width="587" height="534" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1623862590195" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1623821064627">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1707.920@0.0.1707.920" timestamp="1623821064627" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="str(state) == str(nextState)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
