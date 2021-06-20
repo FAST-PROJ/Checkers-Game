@@ -86,19 +86,8 @@ class Board:
                 else:
                     self.board[row].append(0)
 
-    def drawPoints(self, players):
-        textPoints = ""
-        heightPoints = 12
-
-        for player in players:
-            textPoints = "{player} - tem {pieces} x peças".format(player=player.name, pieces=player.pieces)
-            textsurface = self.myFont.render(textPoints, True, pygame.Color("blue"))
-            self.screen.blit(textsurface, (10, heightPoints))
-            heightPoints = (heightPoints + 20)
-
     def draw(self, win):
         self.draw_squares(win)
-        self.drawPoints([self.redPlayer, self.whitePlayer])
         for row in range(const.ROWS):
             for col in range(const.COLS):
                 piece = self.board[row][col]
